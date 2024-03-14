@@ -1,0 +1,15 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@erc725/smart-contracts": "^7.0.0",
+    "@lukso/lsp0-contracts": "^0.15.0-rc.0",
+    "@lukso/lsp3-contracts": "^0.15.0-rc.0",
+    "@lukso/lsp7-contracts": "^0.15.0-rc.0",
+    "ethers": "^6.11.1"
+  }
+}
