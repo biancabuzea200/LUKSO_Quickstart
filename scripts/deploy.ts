@@ -1,5 +1,4 @@
 
-import { decodeBase64, toUtf8Bytes } from "ethers";
 import { ethers } from "hardhat";
 
 async function main() {

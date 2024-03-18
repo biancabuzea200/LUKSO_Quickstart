@@ -5,19 +5,13 @@ pragma solidity ^0.8.4;
 import {LSP0ERC725Account} from "@lukso/lsp0-contracts/contracts/LSP0ERC725Account.sol";
 
 // errors
-import {
-    ERC725Y_DataKeysValuesLengthMismatch
-} from "@erc725/smart-contracts/contracts/errors.sol";
+import {ERC725Y_DataKeysValuesLengthMismatch} from "@erc725/smart-contracts/contracts/errors.sol";
 
 // constants
-import {
-    _LSP3_SUPPORTED_STANDARDS_KEY,
-    _LSP3_SUPPORTED_STANDARDS_VALUE
-} from "@lukso/lsp3-contracts/contracts/LSP3Constants.sol";
+import {_LSP3_SUPPORTED_STANDARDS_KEY, _LSP3_SUPPORTED_STANDARDS_VALUE} from "@lukso/lsp3-contracts/contracts/LSP3Constants.sol";
 
 /**
  * @title implementation of a LUKSO's Universal Profile based on LSP3
- * @author Fabian Vogelsteller <fabian@lukso.network>
  * @dev Implementation of the ERC725Account + LSP1 universalReceiver
  */
 contract UniversalProfile is LSP0ERC725Account {
