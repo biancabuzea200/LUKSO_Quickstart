@@ -1,9 +1,13 @@
 
 import { ethers } from "hardhat";
+import 'dotenv/config'
 
 async function main() {
+
+  
+
   const account = await ethers.deployContract('UniversalProfile', [
-    '0x5E479a3cc6AdC64ddf3129AEaE99A27A5Bfe4bed'
+    process.env.ADDR
   ]);
   await account.waitForDeployment();
   const accountAddress = await account.getAddress();
